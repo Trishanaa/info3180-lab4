@@ -1,0 +1,15 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    justify-content: left;
+}
+
+.image-container img {
+    width: 200px;  
+    height: 200px; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
